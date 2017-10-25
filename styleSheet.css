@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: darkorange;
+    text-align: center;
+    font-family: verdana;
+    border-style: groove;
+    border-color: black;
+    background: black;
+
+
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    border: 10px;
+}
+
+iframe {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    alig
+
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    border-top: 10px;
+    border-style: solid;
+    border-top-color: white;
+    color: white;
+
+}
+
+#logo{
+  width: 600px;
+  height: auto;
+
+}
+#TA_cdsratingsonlywide998{
+    margin: 0 auto;
+    width: 800px;
+}
+#eventListing{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 500px;
+    height: 820px;
+    overflow: hidden;
+    
+}
+#eventIFrame{
+    position: relative;
+    height: 1440px;
+    width: 500px;
+    top: -620px;
+
+}
+#eventListTxt{
+    background-color: #535352;
+    color: #c3172e;
+    margin-left: 670px;
+    margin-right: 670px;
+}

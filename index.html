@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styleSheet.css">
+  <meta charset="UTF-8">
+  <title>Leadmill</title>
+  <script src='jquery-3.2.1.slim.min.js'></script>
+  <script src='script.js'></script>
+</head>
+
+<body>
+  <div>
+    <a href='http://www.leadmill.co.uk' target="_blank">
+      <img id="logo" src="./resources/Leadmill_logo_DarkGraySteel.png" loop=infinite>
+      <script>
+        document.getElementById("logo").onmouseover = function() {mouseOver()};
+        document.getElementById("logo").onmouseout = function() {mouseOut()};
+      </script>
+    </a>
+  </div>
+
+  <div>
+      <br/>
+    <h2 id='eventListTxt' onclick="showEvents()">Event Listings</h2>
+  </div>
+
+  <div id='eventListing' onclick="newTab()">
+      <iframe id="eventIFrame" src="http://leadmill.co.uk/events/" scrolling="no" frameborder="no" ></iframe>
+
+      <script>
+        document.getElementById("eventIFrame").onclick = function()  {showEvents()};
+      </script>
+  </div>
+
+  <br/>
+
+  <div id="TA_cdsratingsonlywide998" class="TA_cdsratingsonlywide">
+    <ul id="EZHdOyVp2" class="TA_links 0s5k0wH9d">
+      <li id="zLFpr6fs" class="wUkmzI">
+        <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+      </li>
+    </ul>
+    <script src="https://www.jscache.com/wejs?wtype=cdsratingsonlywide&amp;uniq=998&amp;locationId=8045687&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+    <script>
+      document.getElementById("TA_cdsratingsonlywide998").style.width = (window.innerWidth * 0.2) + "px"
+    </script>
+
+  </div>
+
+  <div id="gMaps">
+    <br/>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.159142004165!2d-1.4669408842294007!3d53.37620197998526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798284a04f7cab%3A0x2da89a5f64844d3e!2sThe+Leadmill!5e0!3m2!1sen!2suk!4v1508926849805"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+
+</body>
+
+</html>
